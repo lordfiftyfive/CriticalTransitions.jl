@@ -7,7 +7,7 @@ version = "0.4.0"
 [weakdeps]
 Attractors = "f3fd9213-ca85-4dba-9dfd-7fc91308fec7"
 ChaosTools = "608a59af-f2a3-5ad4-90b4-758bdf3122a7"
-
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
 [extensions]
 ChaosToolsExt = ["ChaosTools"]
