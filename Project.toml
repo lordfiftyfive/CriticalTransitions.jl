@@ -9,6 +9,7 @@ Attractors = "f3fd9213-ca85-4dba-9dfd-7fc91308fec7"
 ChaosTools = "608a59af-f2a3-5ad4-90b4-758bdf3122a7"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 DynamicalSystemsBase = "6e36e845-645a-534a-86f2-f5d4aa5a06b4"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 
 [extensions]
 ChaosToolsExt = ["ChaosTools"]
