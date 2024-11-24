@@ -7,48 +7,11 @@ version = "0.4.0"
 [weakdeps]
 Attractors = "f3fd9213-ca85-4dba-9dfd-7fc91308fec7"
 ChaosTools = "608a59af-f2a3-5ad4-90b4-758bdf3122a7"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-DynamicalSystemsBase = "6e36e845-645a-534a-86f2-f5d4aa5a06b4"
-Optim = "429524aa-4258-5aef-a3af-852621145aeb"
-Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 
 [extensions]
 ChaosToolsExt = ["ChaosTools"]
 CoupledSDEsBaisin = ["ChaosTools", "Attractors"]
 
-[compat]
-Aqua = "0.8.7"
-Attractors = "1.19.12"
-ChaosTools = "3.2.1"
-Dates = "1.10.0"
-DataStructures = "0.18.20"
-LinearSolve = "2.37.0"
-DiffEqNoiseProcess = "5.22"
-DocStringExtensions = "0.9.3"
-Documenter = "^1.4.1"
-DynamicalSystemsBase = "3.12"
-ExplicitImports = "1.9"
-Format = "1"
-ForwardDiff = "0.10.36"
-HDF5 = "0.17.2"
-IntervalArithmetic = "0.20"
-JET = "0.9.9"
-JLD2 = "0.4.46, 0.5"
-Markdown = "1.10.0"
-ModelingToolkit = "9.25"
-Optim = "1.10"
-OrdinaryDiffEq = "6.90"
-ProgressBars = "1.5.1"
-ProgressMeter = "1.10.0"
-Reexport = "1.2.2"
-StateSpaceSets = "2.1.2"
-StaticArrays = "1.9.8"
-Statistics = ">=1.9"
-StochasticDiffEq = "6.71"
-Symbolics = "5.32, 6"
-julia = "1.10"
-SparseArrays = "1.10"
-Interpolations = "0.15.1"
 
 [extras]
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
